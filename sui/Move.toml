@@ -2,11 +2,11 @@
 # -------------------------------
 [package]
 name = "IntegerMate"
-version = "mainnet-v1.23.1"
-published-at = "0xe2b515f0052c0b3f83c23db045d49dbe1732818ccfc5d4596c9482f7f2e76a85"
+version = "testnet-v1.37.2"
+published-at = "0x7675334bcfd81e7a3268ff0b9c8611b20c68b259c46ce840f6237d3018368cb6"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.23.1" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-integer_mate = "0x714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57"
+integer_mate = "0x7675334bcfd81e7a3268ff0b9c8611b20c68b259c46ce840f6237d3018368cb6"
